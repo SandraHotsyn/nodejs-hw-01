@@ -7,12 +7,18 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node src/index",
     "dev": "nodemon src/index",
-    "lint": "eslint src/**/*.js"
+    "lint": "eslint src/**/*.js",
+    "get-all": "node src/scripts/getAllContacts",
+    "generate": "node src/scripts/generateContacts",
+    "add-one": "node src/scripts/addOneContact",
+    "count": "node src/scripts/countContacts",
+    "remove-last": "node src/scripts/removeLastContact",
+    "remove-all": "node src/scripts/removeAllContacts"
   },
   "keywords": [],
   "author": "SH",
   "license": "ISC",
-  "description": "",
+  "description": "Homework Node JS 01",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.21.1",
