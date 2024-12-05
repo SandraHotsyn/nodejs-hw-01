@@ -8,8 +8,8 @@
     "start": "node src/index",
     "dev": "nodemon src/index",
     "lint": "eslint src/**/*.js",
-    "get-all": "node src/scripts/getAllContacts",
     "generate": "node src/scripts/generateContacts",
+    "get-all": "node src/scripts/getAllContacts",
     "add-one": "node src/scripts/addOneContact",
     "count": "node src/scripts/countContacts",
     "remove-last": "node src/scripts/removeLastContact",
@@ -26,6 +26,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.16.0",
+    "@faker-js/faker": "^9.3.0",
     "eslint": "^9.16.0",
     "globals": "^15.13.0",
     "jest": "^29.7.0",
