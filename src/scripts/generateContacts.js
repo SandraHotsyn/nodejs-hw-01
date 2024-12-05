@@ -1,14 +1,14 @@
-import * as fs from 'node:fs';
-
+import { readContacts } from '../utils/readContacts.js';
 import { createFakeContact } from '../utils/createFakeContact.js';
-import { error, log } from 'node:console';
+import { writeContacts } from '../utils/writeContacts.js';
 
 const generateContacts = async (number) => {
-  const constantsList = Array(number).fill(0).map(createFakeContact);
-  fs.readFile('../../db/db.json', (error, data) => {
-    console.log(error);
-    console.log(data);
-  });
+  const contactsList = await readContacts();
+
+  const newContacts = Array(number).fill(0).map(createFakeContact);
+  const newList = [...contactsList, ...newContacts];
+  await writeContacts(newList);
+  console.log(newList);
 };
 
 generateContacts(5);
