@@ -19,5 +19,33 @@
     "phone": "1-200-977-3513 x1799",
     "email": "Margarita4@hotmail.com",
     "job": "Internal Applications Representative"
+  },
+  {
+    "id": "254d1511-3139-4e60-bf6f-dfb64fc41c5d",
+    "name": "Josh Gerlach",
+    "phone": "767-707-0706 x4046",
+    "email": "Lavern94@gmail.com",
+    "job": "National Usability Director"
+  },
+  {
+    "id": "56a9aca3-3030-4efe-8996-9385fa6a58f5",
+    "name": "Tracey Batz",
+    "phone": "1-800-462-4823 x54114",
+    "email": "Alexander42@gmail.com",
+    "job": "Central Paradigm Associate"
+  },
+  {
+    "id": "c8f0ab29-4eed-4bcf-b643-c87fcbfccffa",
+    "name": "Kelly Johns",
+    "phone": "(985) 835-7680 x78568",
+    "email": "Michaela.Gerhold90@yahoo.com",
+    "job": "Investor Paradigm Representative"
+  },
+  {
+    "id": "ea102517-d232-4736-b0c2-9462ec438204",
+    "name": "Armando Streich",
+    "phone": "747.525.4813 x3459",
+    "email": "Mariah.Rice@gmail.com",
+    "job": "Future Response Agent"
   }
 ]
